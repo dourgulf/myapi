@@ -4,7 +4,7 @@
 
 var express = require('express');
 var router = express.Router();
-var debug = require('debug')('distcenter:qrcode');
+var debug = require('debug')('myapi:qrcode');
 
 var qr = require('qr-image');
 
